@@ -1,0 +1,44 @@
+# shopfeather
+
+A clean, minimal React clothing shop with pixel icons, Tailwind CSS, and smooth animations. Open source for inspiration.
+
+## Features
+
+- **Minimalist Design**: A strict black & white aesthetic with subtle gray accents.
+- **Pixel Art Icons**: Custom-styled icons for navigation, buttons, and indicators.
+- **Smooth Transitions**: Fluid animations between pages and interactive elements.
+- **Product Experience**: Clean grid layouts, hover image swaps, and detailed product views.
+- **E-commerce Ready**: Functional cart system, checkout flow, and inventory management.
+- **Responsive**: Fully optimized for mobile, tablet, and desktop.
+
+## Tech Stack
+
+- **Framework**: React 18+ (Vite)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React (Pixel-styled)
+- **Routing**: React Router
+
+## Getting Started
+
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Run the development server**:
+   ```bash
+   npm start
+   ```
+
+The app will be available at `http://localhost:5173`.
+
+## Structure
+
+- `/src/components`: UI components like Navbar, Hero, and ProductCard.
+- `/src/pages`: Main views including Home, ProductDetail, and Checkout.
+- `/src/context`: Cart state management.
+- `/src/data`: Product and collection data.
+- `/src/layouts`: Main page layout wrapper.
+
+Built for those who appreciate simplicity and clean code.
