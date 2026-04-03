@@ -2,7 +2,7 @@
   "name": "shopfeather.cc",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mint-d8.github.io/shopfeather",
+  "homepage": "https://mint-d8.github.io/Open-Source-React-Clothing-Store/",
   "type": "module",
   "scripts": {
     "dev": "vite",
