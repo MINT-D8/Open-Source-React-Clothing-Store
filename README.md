@@ -1,7 +1,7 @@
+# shopfeather
 <p align="center">
   <img src="logo.png" alt="Mint Playbook Banner" width="100%">
 </p>
-# shopfeather
 
 A clean, minimal React clothing shop with pixel icons, Tailwind CSS, and smooth animations. Open source for inspiration.
 
