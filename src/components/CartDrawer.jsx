@@ -136,7 +136,7 @@ const CartDrawer = () => {
                 <Link
                   to="/checkout"
                   onClick={() => setIsCartOpen(false)}
-                  className="w-full pixel-button py-6 text-xl font-black uppercase tracking-widest flex items-center justify-center gap-4 group"
+                  className="w-full pixel-button pixel-button-active py-6 text-xl font-black uppercase tracking-widest flex items-center justify-center gap-4 group"
                 >
                   Checkout
                   <motion.div

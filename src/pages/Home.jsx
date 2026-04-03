@@ -93,9 +93,12 @@ const Home = () => {
                   <p className="text-xs text-gray-300 font-bold uppercase tracking-widest mb-6">
                     {collection.description}
                   </p>
-                  <button className="pixel-button bg-white text-black border-white shadow-none hover:bg-black hover:text-white hover:border-black py-3 px-6 text-[10px] font-black uppercase tracking-widest">
+                  <Link
+                    to={`/?category=${collection.name}`}
+                    className="pixel-button pixel-button-active bg-white text-black border-white shadow-none hover:bg-black hover:text-white hover:border-black py-3 px-6 text-[10px] font-black uppercase tracking-widest inline-block text-center"
+                  >
                     Explore
-                  </button>
+                  </Link>
                 </div>
               </motion.div>
             ))}

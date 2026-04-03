@@ -54,7 +54,7 @@ const Hero = () => {
           >
             <button
               onClick={() => document.getElementById('new-arrivals')?.scrollIntoView({ behavior: 'smooth' })}
-              className="pixel-button text-lg font-black uppercase tracking-widest px-12 py-5 flex items-center gap-4 group"
+              className="pixel-button pixel-button-active text-lg font-black uppercase tracking-widest px-12 py-5 flex items-center gap-4 group"
             >
               Shop Now
               <ArrowRight className="group-hover:translate-x-2 transition-transform" />

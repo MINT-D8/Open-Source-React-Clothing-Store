@@ -73,7 +73,7 @@ const Checkout = () => {
 
                   <button 
                     onClick={() => setStep(2)}
-                    className="pixel-button py-6 text-xl font-black uppercase tracking-widest flex items-center justify-center gap-4 group mt-6"
+                    className="pixel-button pixel-button-active py-6 text-xl font-black uppercase tracking-widest flex items-center justify-center gap-4 group mt-6"
                   >
                     Continue to Payment
                     <Truck size={24} strokeWidth={3} />
@@ -133,7 +133,7 @@ const Checkout = () => {
                   <button 
                     onClick={handleProcessPayment}
                     disabled={isProcessing}
-                    className="pixel-button py-6 text-xl font-black uppercase tracking-widest flex items-center justify-center gap-4 group mt-6"
+                    className="pixel-button pixel-button-active py-6 text-xl font-black uppercase tracking-widest flex items-center justify-center gap-4 group mt-6"
                   >
                     {isProcessing ? (
                       <>Processing... <Loader2 size={24} strokeWidth={3} className="animate-spin" /></>

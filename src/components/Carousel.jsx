@@ -66,7 +66,7 @@ const Carousel = () => {
               <div className="flex flex-wrap gap-6 items-center">
                 <button
                   onClick={() => addToCart(product)}
-                  className="pixel-button px-10 py-5 text-lg font-black uppercase tracking-widest flex items-center gap-4 group"
+                  className="pixel-button pixel-button-active px-10 py-5 text-lg font-black uppercase tracking-widest flex items-center gap-4 group"
                 >
                   Add to Bag
                   <ShoppingBag size={20} strokeWidth={3} />

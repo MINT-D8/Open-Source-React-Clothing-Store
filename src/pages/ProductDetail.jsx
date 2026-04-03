@@ -194,7 +194,7 @@ const ProductDetail = () => {
                 <button
                   onClick={handleAddToCart}
                   disabled={isAdding}
-                  className="flex-1 pixel-button h-14 text-sm font-black uppercase tracking-widest flex items-center justify-center gap-4 group relative overflow-hidden"
+                  className="flex-1 pixel-button pixel-button-active h-14 text-sm font-black uppercase tracking-widest flex items-center justify-center gap-4 group relative overflow-hidden"
                 >
                   <AnimatePresence mode="wait">
                     {isAdding ? (

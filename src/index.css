@@ -40,6 +40,11 @@
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
   }
 
+  .pixel-button-active:active:not(:disabled) {
+    @apply translate-x-[8px] translate-y-[8px];
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+  }
+
   .pixel-button-outline {
     @apply bg-white text-black px-8 py-4 border-2 border-black transition-all;
     box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
@@ -47,6 +52,11 @@
   
   .pixel-button-outline:hover {
     @apply translate-x-[6px] translate-y-[6px];
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+  }
+
+  .pixel-button-outline-active:active {
+    @apply translate-x-[8px] translate-y-[8px];
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
   }
 
